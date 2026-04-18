@@ -50,7 +50,7 @@ jobs:
 
         #echo "[+] Done."
         
-        #cd ..
+        cd ..
         
         git clone https://github.com/haisto/kernel-su-xiaomi-cas
         
