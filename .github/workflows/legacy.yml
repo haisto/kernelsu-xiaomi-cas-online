@@ -64,7 +64,7 @@ jobs:
         
         cd source
         make cas_defconfig
-        make -j2
+        make -j$(nproc --all)
         
 
     - name: Upload Build
